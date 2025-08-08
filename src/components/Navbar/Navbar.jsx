@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className={`navbar-menu ${isOpen ? 'is-active' : ''}`}>
                     <Link to="/" className="navbar-item">HOME</Link>
                     <Link to="/about" className="navbar-item">A TENTEX</Link>
-                    <Link to="/representadas" className="navbar-item">REPRESENTADAS</Link>
+                    <Link to="/represented" className="navbar-item">REPRESENTADAS</Link>
                     <Link to="/products" className="navbar-item">PRODUTOS</Link>
                     <Link to="/services" className="navbar-item">SERVIÇOS</Link>
                     <Link to="/contact" className="navbar-item">CONTATO</Link>
